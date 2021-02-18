@@ -19,7 +19,7 @@
 * 进入 blog-backend 文件夹，并执行语句 **npm install**，下载依赖的第三方库
 * 执行 **npm run start:dev** 运行后端
 
-**注意：**后端中数据库的配置在 blog-backend\src\database\database.service.ts 中，请根据实际情况修改：
+**注意:** 后端中数据库的配置在 blog-backend\src\database\database.service.ts 中，请根据实际情况修改：
 
 ![image-20210218152255914](img/image-20210218152255914.png)
 
