@@ -9,6 +9,12 @@
 
 ## 部署说明
 
+### 跨域问题
+
+&emsp;&emsp;我只简单解决了 Chrome 浏览器的跨域，这里除了在代码中设置 credentials 以外，还需要用 chrome 浏览器访问 chrome://flags，将如下三个条目设置为 disabled：
+
+<img src="img/image-20210227160126518.png" alt="image-20210227160126518" style="zoom:67%;" />
+
 ### 前端
 
 * 进入 easy_blog 文件夹，并执行语句 **npm install**，下载依赖的第三方库
